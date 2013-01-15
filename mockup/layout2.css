@@ -1,0 +1,36 @@
+body {
+	background: url(layout/body_bg.png) no-repeat top left;
+	background-size:cover;	
+}
+
+
+header.header-bar {
+	background: url(layout/header_bg.png) repeat-x top left;
+	height: 65px;
+	width: 100%;
+}
+
+div.container {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.posters {
+	-moz-column-count: 6;
+	-moz-column-gap: 00px;
+	-moz-column-fill: auto;
+	-webkit-column-count: 6;
+	-webkit-column-gap: 0px;
+	-webkit-column-fill: auto;
+	column-count: 6;
+	column-gap: 0px;
+	column-fill: auto;
+}
+
+.poster { 
+	width: 208px;
+	-moz-column-break-inside: avoid; 
+	-webkit-column-break-inside: avoid; 
+	column-break-inside: avoid; 
+	display: inline-block; 
+}
